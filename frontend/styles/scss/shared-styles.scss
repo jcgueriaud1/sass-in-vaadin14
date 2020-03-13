@@ -1,0 +1,16 @@
+@import 'variables';
+
+body {
+  background-color: $secondary-color;
+}
+
+.centered-content {
+  margin: 0 auto;
+  max-width: 250px;
+
+  p {
+    @include transform(rotate(180deg));
+    color: $primary-color;
+  }
+}
+

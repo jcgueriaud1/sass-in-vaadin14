@@ -1,0 +1,8 @@
+$primary-color: #333333;
+$secondary-color: #cccccc;
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
