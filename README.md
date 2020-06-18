@@ -3,7 +3,7 @@
 The SASS files are loaded with webpack.
 
 If you want to reproduce in an other project:
-* Install sass-loader and node-sass: ```npm install node-sass scss-loader```
+* Install sass-loader and node-sass: ```npm install node-sass sass-loader```
     * This will add these dependencies to package.json
 * Update the webpack configuration (webpack.config.js):
 ```
